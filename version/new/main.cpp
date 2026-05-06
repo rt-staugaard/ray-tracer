@@ -2,15 +2,14 @@
 #include "../../modules/graphics/GLFW_setup.hpp"
 #include "../../modules/graphics/DisplayDrawer.hpp"
 #include "../../modules/physics/math_functions.hpp"
-#include "../../modules/physics/physics.hpp"
 
 const float screenWidth = 600;
 const float screenHeight = 600;
 const float screenNear = 0.1;
 const float screenFar = 100;
 
-const char vertDir[] = "../../shaders/light.vert";
-const char fragDir[] = "../../shaders/light.frag";
+const char vertDir[] = "../shaders/light.vert";
+const char fragDir[] = "../shaders/light.frag";
 
 const float mass_BH = 1.0;
 
